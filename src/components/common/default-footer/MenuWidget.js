@@ -3,33 +3,42 @@ import React from "react";
 const MenuWidget = () => {
   const menuSections = [
     {
-      title: "Popular Search",
-      links: [
-        { label: "Apartment for Rent", href: "#" },
-        { label: "Apartment Low to Hide", href: "#" },
-        { label: "Offices for Buy", href: "#" },
-        { label: "Offices for Rent", href: "#" },
-      ],
-    },
-    {
       title: "Quick Links",
       links: [
-        { label: "Terms of Use", href: "#" },
-        { label: "Privacy Policy", href: "#" },
-        { label: "Pricing Plans", href: "#" },
-        { label: "Our Services", href: "#" },
-        { label: "Contact Support", href: "#" },
-        { label: "Careers", href: "#" },
-        { label: "FAQs", href: "#" },
+        { label: "Available Listings", href: "/listings" },
+        {
+          label: "Property Management",
+          href: "/property-owner/property-management",
+        },
+        {
+          label: "Property Management Toronto",
+          href: "/property-owner/property-management-toronto",
+        },
+        {
+          label: "Property Management Mississauga",
+          href: "/property-owner/property-management-mississauga",
+        },
+        { label: "About Us", href: "/about" },
+        { label: "Contact", href: "/contact" },
       ],
     },
     {
-      title: "Discover",
+      title: "Blogs",
       links: [
-        { label: "Miami", href: "#" },
-        { label: "Los Angeles", href: "#" },
-        { label: "Chicago", href: "#" },
-        { label: "New York", href: "#" },
+        {
+          label: "How Much Can a Landlord Increase Rent in Ontario?",
+          href: "#",
+        },
+        { label: "Why Is There a Housing Crisis in Canada?", href: "#" },
+        { label: "Why Is There a Housing Crisis in Canada?", href: "#" },
+        {
+          label: "Toronto Housing in 2025: Market Trends & Price Outlook",
+          href: "#",
+        },
+        {
+          label: "How to Collect Unpaid Rent After Tenant Moves Out",
+          href: "#",
+        },
       ],
     },
   ];

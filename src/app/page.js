@@ -3,7 +3,7 @@ import Home_V4 from "./(home)/home-v3/page";
 import Wrapper from "./layout-wrapper/wrapper";
 
 export const metadata = {
-  title: "Home v3 || Homez - Real Estate NextJS Template",
+  title: "Condo1 Property Management Built for Owners and Tenants",
 };
 
 export default function MainRoot() {

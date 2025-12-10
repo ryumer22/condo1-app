@@ -95,7 +95,7 @@ const MainMenu = () => {
       <li className="visible_list">
         <a className="list-item" href="#">
           <span className={topMenu == "blog" ? "title menuActive" : "title"}>
-            Blog
+            Listings
           </span>
         </a>
       </li>

@@ -1,7 +1,7 @@
 import MobileMenu from "@/components/common/mobile-menu";
 import Header from "@/components/home/home-v3/Header";
 import Hero from "@/components/home/home-v3/hero";
-import Footer from "@/components/home/home-v3/footer";
+import Footer from "@/components/common/default-footer";
 import Image from "next/image";
 import Partner from "@/components/common/Partner";
 import PropertyByCities from "@/components/home/home-v3/PropertyByCities";
@@ -16,7 +16,7 @@ import Link from "next/link";
 import PropertyByCitiesWrapper from "@/components/home/home-v3/PropertyByCitiesWrapper";
 
 export const metadata = {
-  title: "Home v3 || Homez - Real Estate NextJS Template",
+  title: "Condo1 Property Management Built for Owners and Tenants",
 };
 
 const Home_V3 = () => {

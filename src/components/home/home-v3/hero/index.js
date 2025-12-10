@@ -6,7 +6,7 @@ const Hero = () => {
     <>
       <div className="inner-banner-style3">
         <h2 className="hero-title mb30 animate-up-1">
-          Find The Perfect Place to Live With your Family
+          Condo1 Makes Property Management Effortless
         </h2>
         <HeroContent />
       </div>
