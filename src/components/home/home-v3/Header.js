@@ -37,7 +37,7 @@ const Header = () => {
             <div className="row align-items-center justify-content-between">
               <div className="col-auto">
                 <div className="d-flex align-items-center justify-content-between">
-                  <div className="logos mr40">
+                  <div className="logos mr5">
                     <Link className="header-logo logo1" href="/">
                       <Image
                         width={138}
@@ -65,21 +65,11 @@ const Header = () => {
 
               <div className="col-auto">
                 <div className="d-flex align-items-center">
-                  <a
-                    href="#"
-                    className="login-info d-flex align-items-center"
-                    data-bs-toggle="modal"
-                    data-bs-target="#loginSignupModal"
-                    role="button"
-                  >
-                    <i className="far fa-user-circle fz16 me-2" />{" "}
-                    <span className="d-none d-xl-block">Login / Register</span>
-                  </a>
                   <Link
                     className="ud-btn btn-dark mx-2 mx-xl-4"
                     href="/dashboard-add-property"
                   >
-                    Add Property
+                    Call Us
                     <i className="fal fa-arrow-right-long" />
                   </Link>
                   <a
