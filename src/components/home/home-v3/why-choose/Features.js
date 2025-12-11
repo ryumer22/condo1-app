@@ -3,21 +3,26 @@ const Features = () => {
   const features = [
     {
       icon: "flaticon-security",
-      title: "Property Management",
+      title: "Full-Service Property Oversight",
       description:
-        "Nullam sollicitudin blandit eros eu pretium. Nullam maximus ultricies auctor.",
+        "High-quality listings and in-depth screening to place dependable tenants efficiently.",
     },
     {
       icon: "flaticon-keywording",
-      title: "Mortgage Services",
+      title: "Tenant Placement & Screening",
       description:
-        "Nullam sollicitudin blandit eros eu pretium. Nullam maximus ultricies auctor.",
+        "Early detection and quick action on repairs to protect your property and maintain tenant satisfaction.",
     },
     {
       icon: "flaticon-investment",
-      title: "Currency Services",
+      title: "24/7 Maintenance Coordination",
       description:
-        "Nullam sollicitudin blandit eros eu pretium. Nullam maximus ultricies auctor.",
+        "Streamlined rent processing with strict follow-up and transparent reporting.",
+    },
+    {
+      icon: "flaticon-investment",
+      title: "Local Market Expertise",
+      description: "We help tenants feel at home - and stay longer.",
     },
   ];
 

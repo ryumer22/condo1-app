@@ -1,4 +1,4 @@
-import { homeItems, listingItems, propertyItems } from "@/data/navItems";
+import { listingItems, propertyItems } from "@/data/navItems";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
@@ -6,53 +6,55 @@ import { useEffect, useState } from "react";
 const MainMenu = () => {
   const pathname = usePathname();
   const [topMenu, setTopMenu] = useState("");
-  const [submenu, setSubmenu] = useState("");
-  const [activeLink, setActiveLink] = useState("");
 
+  // Decide which top-level menu item is active based on the URL
   useEffect(() => {
-    homeItems.forEach((elm) => {
-      if (elm.href.split("/")[1] == pathname.split("/")[1]) {
-        setTopMenu("home");
-      }
-    });
+    const firstSegment = pathname.split("/")[1] || "";
 
-    propertyItems.forEach((item) => {
-      if (item.href.split("/")[1] == pathname.split("/")[1]) {
-        setTopMenu("property");
-      }
-    });
-
-    listingItems.forEach((item) =>
-      item.submenu.forEach((elm) => {
-        if (elm.href.split("/")[1] == pathname.split("/")[1]) {
-          setTopMenu("listing");
-        }
-      })
-    );
+    if (firstSegment === "") {
+      setTopMenu("home");
+    } else if (firstSegment === "property-owner") {
+      setTopMenu("propertyOwner");
+    } else if (firstSegment === "tenants") {
+      setTopMenu("tenants");
+    } else if (firstSegment === "property-listings") {
+      setTopMenu("listings");
+    } else if (firstSegment === "about") {
+      setTopMenu("about");
+    } else if (firstSegment === "contact") {
+      setTopMenu("contact");
+    } else {
+      setTopMenu("");
+    }
   }, [pathname]);
 
+  // Reusable helper for link-level active state
   const handleActive = (link) => {
     if (!link || typeof link !== "string") return "";
-
     const current = pathname.split("/")[1] || "";
     const target = link.split("/")[1] || "";
-
     return current === target ? "menuActive" : "";
   };
 
   return (
     <ul className="ace-responsive-menu">
+      {/* Home */}
       <li className="visible_list">
         <Link className={`list-item ${handleActive("/")}`} href="/">
-          <span className={topMenu == "home" ? "title menuActive" : "title"}>
+          <span className={topMenu === "home" ? "title menuActive" : "title"}>
             Home
           </span>
         </Link>
       </li>
 
+      {/* Property Owner dropdown */}
       <li className="visible_list dropitem">
         <a className="list-item" href="#">
-          <span className={topMenu == "listing" ? "title menuActive" : "title"}>
+          <span
+            className={
+              topMenu === "propertyOwner" ? "title menuActive" : "title"
+            }
+          >
             Property Owner
           </span>
           <span className="arrow"></span>
@@ -68,12 +70,12 @@ const MainMenu = () => {
           ))}
         </ul>
       </li>
-      {/* End listings */}
 
+      {/* Tenants dropdown */}
       <li className="visible_list dropitem">
         <a className="list-item" href="#">
           <span
-            className={topMenu == "property" ? "title menuActive" : "title"}
+            className={topMenu === "tenants" ? "title menuActive" : "title"}
           >
             Tenants
           </span>
@@ -90,21 +92,27 @@ const MainMenu = () => {
           ))}
         </ul>
       </li>
-      {/* End property Items */}
 
+      {/* Listings (single page) */}
       <li className="visible_list">
-        <a className="list-item" href="#">
-          <span className={topMenu == "blog" ? "title menuActive" : "title"}>
+        <Link
+          className={`list-item ${handleActive("/property-listings")}`}
+          href="/property-listings"
+        >
+          <span
+            className={topMenu === "listings" ? "title menuActive" : "title"}
+          >
             Listings
           </span>
-        </a>
+        </Link>
       </li>
-      {/* End blog Items */}
 
-      {/* About Us */}
+      {/* About */}
       <li className="visible_list">
         <Link className={`list-item ${handleActive("/about")}`} href="/about">
-          <span className="title">About</span>
+          <span className={topMenu === "about" ? "title menuActive" : "title"}>
+            About
+          </span>
         </Link>
       </li>
 
@@ -114,7 +122,11 @@ const MainMenu = () => {
           className={`list-item ${handleActive("/contact")}`}
           href="/contact"
         >
-          <span className="title">Contact</span>
+          <span
+            className={topMenu === "contact" ? "title menuActive" : "title"}
+          >
+            Contact
+          </span>
         </Link>
       </li>
     </ul>

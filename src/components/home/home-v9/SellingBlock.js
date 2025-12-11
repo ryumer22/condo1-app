@@ -3,23 +3,33 @@ import React from "react";
 const sellingBlockData = [
   {
     iconClass: "flaticon-security",
-    title: "Property Management",
-    text: "Lorem ipsum dolor sit amet elit. Suspendisse varius enim in eros elementum tristique.",
+    title: "Tenant Placement",
+    text: "We find and vet the right tenants fast, reducing vacancy time",
   },
   {
     iconClass: "flaticon-keywording",
-    title: "Mortgage Services",
-    text: "Lorem ipsum dolor sit amet elit. Suspendisse varius enim in eros elementum tristique.",
+    title: "Rent Collection",
+    text: "Automated billing and strict follow-up policies",
   },
   {
     iconClass: "flaticon-investment",
-    title: "Currency Services",
-    text: "Lorem ipsum dolor sit amet elit. Suspendisse varius enim in eros elementum tristique.",
+    title: "Maintenance Coordination",
+    text: "Repairs handled by vetted pros, with 24/7 availability",
   },
   {
     iconClass: "flaticon-keywording",
-    title: "Mortgage Services",
-    text: "Lorem ipsum dolor sit amet elit. Suspendisse varius enim in eros elementum tristique.",
+    title: "Legal & Compliance",
+    text: "Lease preparation, LTB notices, and legal support",
+  },
+  {
+    iconClass: "flaticon-investment",
+    title: "Owner Reporting",
+    text: "Transparent monthly statements, inspections, and updates",
+  },
+  {
+    iconClass: "flaticon-keywording",
+    title: "Tenant Support",
+    text: "Quick response times and respectful service",
   },
 ];
 

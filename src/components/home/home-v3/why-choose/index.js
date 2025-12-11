@@ -12,11 +12,13 @@ const WhyChoose = () => {
         data-aos-delay="300"
       >
         <div className="main-title2">
-          <h2 className="title">Why Choose Us</h2>
+          <h2 className="title">Why Owners & Tenants Choose Condo1</h2>
           <p className="paragraph fz15">
-            As the complexity of buildings increases, the
+            We believe property management should serve everyone involved - not
+            just the bottom line.
             <br className="d-none d-lg-block" />
-            field of architecture evolves.
+            Our dual-focus approach gives landlords control and gives tenants a
+            reason to stay.
           </p>
         </div>
 

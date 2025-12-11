@@ -7,9 +7,9 @@ import Link from "next/link";
 
 const Funfact = () => {
   const funFacts = [
-    { number: 400, text: "Stores around the world" },
-    { number: 200, text: "Stores around the world" },
-    { number: 1000, text: "Stores around the world" },
+    { number: 200, text: "Properties Managed" },
+    { number: 99, text: "Rent Collection Rate" },
+    { number: 250, text: "Happy Tenants Supported" },
     // Add more fun facts if needed
   ];
 

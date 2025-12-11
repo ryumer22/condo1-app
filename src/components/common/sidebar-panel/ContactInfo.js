@@ -4,15 +4,15 @@ const ContactInfo = () => {
   const contactInfo = [
     {
       id: 1,
-      title: "Total Free Customer Care",
-      phone: "+(0) 123 050 945 02",
-      phoneHref: "tel:+012305094502",
+      title: "Phone Customer Care",
+      phone: "(647) 905-6492",
+      phoneHref: "tel:+6479056492",
     },
     {
       id: 2,
-      title: "Need Live Support?",
-      email: "hi@homez.com",
-      emailHref: "mailto:hi@homez.com",
+      title: "Need Support?",
+      email: "info@Condo1.ca",
+      emailHref: "mailto:info@Condo1.ca",
     },
   ];
 

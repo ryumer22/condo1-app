@@ -66,11 +66,13 @@ const About = () => {
               data-aos-delay="200"
             >
               <h2 className="title mb20">
-                Let’s find the right selling option for you
+                Serving Owners & Supporting Tenants
               </h2>
               <p className="text mb55 mb30-md fz14">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do{" "}
-                <br className="d-none d-xl-block" /> eiusmod tempor incididunt.
+                Condo1 builds trust on both sides. For owners, we provide
+                complete control and hands-free service. For tenants,{" "}
+                <br className="d-none d-xl-block" /> we offer fast support,
+                online tools, and a better everyday rental experience.
               </p>
               <SellingList />
               <Link href="#" className="ud-btn btn-dark">

@@ -140,11 +140,9 @@ const Home_V3 = () => {
                 data-aos="fade-up"
                 data-aos-delay="100"
               >
-                <h2 className="title text-white mb-1">
-                  Let’s find the right selling option for you
-                </h2>
+                <h2 className="title text-white mb-1">What Condo1 Offers</h2>
                 <p className="paragraph text-white">
-                  Aliquam lacinia diam quis lacus euismod
+                  Everything You Need, One Team You Can Trust
                 </p>
               </div>
             </div>
@@ -163,13 +161,13 @@ const Home_V3 = () => {
       {/* services*/}
 
       {/* About Us */}
-      <section className="pt0 pb40-md">
+      <section className="pt0 pb0">
         <About />
       </section>
       {/* End About Us */}
 
       {/*People Love Living with Realton */}
-      <section className="pb30-md bgc-f7">
+      <section className="pb30-md bgc-thm-light">
         <div className="container">
           <div className="row align-items-md-center">
             <div
@@ -177,9 +175,12 @@ const Home_V3 = () => {
               data-wow-delay="100ms"
             >
               <div className="main-title">
-                <h2 className="title">People Love Living with Realton</h2>
+                <h2 className="title">
+                  What Owners & Tenants Say About Condo1
+                </h2>
                 <p className="paragraph">
-                  Aliquam lacinia diam quis lacus euismod
+                  From stress-free ownership to responsive tenant support, see
+                  how Condo1 delivers for both sides.
                 </p>
               </div>
               <div className="row">
@@ -212,9 +213,10 @@ const Home_V3 = () => {
                 data-aos="fade-up"
                 data-aos-delay="100"
               >
-                <h2 className="title">Our Exclusive Agetns</h2>
+                <h2 className="title">The Condo1 Team</h2>
                 <p className="paragraph">
-                  Aliquam lacinia diam quis lacus euismod
+                  Our team of licensed brokers and property professionals is
+                  here to make ownership easier and tenants happier
                 </p>
               </div>
             </div>

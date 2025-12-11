@@ -1,12 +1,11 @@
 const MenuItems = () => {
   const menuItems = [
-    { id: 1, title: "Apartments" },
-    { id: 2, title: "Bungalow" },
-    { id: 3, title: "Houses" },
-    { id: 4, title: "Loft" },
-    { id: 5, title: "Office" },
-    { id: 6, title: "Townhome" },
-    { id: 7, title: "Villa" },
+    { id: 1, title: "Property Management" },
+    { id: 2, title: "Property Listings" },
+    { id: 3, title: "Submit Maintenance Request" },
+    { id: 4, title: "About Us" },
+    { id: 5, title: "Blog" },
+    { id: 6, title: "Contact Us" },
   ];
 
   return (

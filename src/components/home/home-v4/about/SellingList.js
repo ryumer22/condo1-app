@@ -1,8 +1,9 @@
 const SellingList = () => {
   const listItems = [
-    "Find excellent deals",
-    "Friendly host & Fast support",
-    "List your own property",
+    "Emergency Maintenance Hotline",
+    "Online Payments & Requests",
+    "Clear Communication at Every Step",
+    "Move-In/Out Coordination",
   ];
 
   return (
