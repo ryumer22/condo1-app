@@ -116,7 +116,7 @@ const Hero = () => {
                               ${item.price} / <span>mo</span>
                             </div>
                             <h6 className="list-title">
-                              <a href="page-property-single-v1.html">
+                              <a href="page-property-single-v4.html">
                                 {item.title}
                               </a>
                             </h6>

@@ -271,7 +271,7 @@ export default function ListingMap1() {
                   </div>
                   <div className="list-content">
                     <h6 className="list-title">
-                      <Link href={`/single-v1/${getLocation.id}`}>
+                      <Link href={`/single-v4/${getLocation.id}`}>
                         {getLocation.title}
                       </Link>
                     </h6>

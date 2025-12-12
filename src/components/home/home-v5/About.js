@@ -32,7 +32,7 @@ const About = () => {
                 ))}
               </ul>
             </div>
-            <Link href="/single-v1/2" className="ud-btn btn-white2">
+            <Link href="/single-v4/2" className="ud-btn btn-white2">
               Learn More<i className="fal fa-arrow-right-long"></i>
             </Link>
           </div>

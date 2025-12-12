@@ -1,9 +1,7 @@
 import DefaultHeader from "@/components/common/DefaultHeader";
 import Footer from "@/components/common/default-footer";
 import MobileMenu from "@/components/common/mobile-menu";
-import EnergyClass from "@/components/property/property-single-style/common/EnergyClass";
-import FloorPlans from "@/components/property/property-single-style/common/FloorPlans";
-import HomeValueChart from "@/components/property/property-single-style/common/HomeValueChart";
+
 import InfoWithForm from "@/components/property/property-single-style/common/more-info";
 import NearbySimilarProperty from "@/components/property/property-single-style/common/NearbySimilarProperty";
 import OverView from "@/components/property/property-single-style/common/OverView";
@@ -11,24 +9,18 @@ import PropertyAddress from "@/components/property/property-single-style/common/
 import PropertyDetails from "@/components/property/property-single-style/common/PropertyDetails";
 import PropertyFeaturesAminites from "@/components/property/property-single-style/common/PropertyFeaturesAminites";
 import PropertyHeader from "@/components/property/property-single-style/single-v4/PropertyHeader";
-import PropertyNearby from "@/components/property/property-single-style/common/PropertyNearby";
-import PropertyVideo from "@/components/property/property-single-style/common/PropertyVideo";
-import PropertyViews from "@/components/property/property-single-style/common/property-view";
+
 import ProperytyDescriptions from "@/components/property/property-single-style/common/ProperytyDescriptions";
-import ReviewBoxForm from "@/components/property/property-single-style/common/ReviewBoxForm";
-import VirtualTour360 from "@/components/property/property-single-style/common/VirtualTour360";
-import AllReviews from "@/components/property/property-single-style/common/reviews";
+
 import ContactWithAgent from "@/components/property/property-single-style/sidebar/ContactWithAgent";
 import ScheduleTour from "@/components/property/property-single-style/sidebar/ScheduleTour";
 import PropertyGallery from "@/components/property/property-single-style/single-v4/property-gallery";
-import MortgageCalculator from "@/components/property/property-single-style/common/MortgageCalculator";
-import WalkScore from "@/components/property/property-single-style/common/WalkScore";
 
 export const metadata = {
   title: "Property Single V4 || Homez - Real Estate NextJS Template",
 };
 
-const SingleV4 = async props => {
+const SingleV4 = async (props) => {
   const params = await props.params;
   return (
     <>
@@ -69,7 +61,7 @@ const SingleV4 = async props => {
                 <ProperytyDescriptions />
                 {/* End property description */}
 
-                <h4 className="title fz17 mb30 mt50">Property Details</h4>
+                <h4 className="title fz17 mb30 mt50">Property Details hello</h4>
                 <div className="row">
                   <PropertyDetails />
                 </div>
@@ -90,86 +82,9 @@ const SingleV4 = async props => {
                   <PropertyFeaturesAminites />
                 </div>
               </div>
+
               {/* End .ps-widget */}
 
-              <div className="ps-widget bgc-white bdrs12 default-box-shadow2 p30 mb30 overflow-hidden position-relative">
-                <h4 className="title fz17 mb30">Energy Class</h4>
-                <div className="row">
-                  <EnergyClass />
-                </div>
-              </div>
-              {/* End .ps-widget */}
-
-              <div className="ps-widget bgc-white bdrs12 default-box-shadow2 p30 mb30 overflow-hidden position-relative">
-                <h4 className="title fz17 mb30">Floor Plans</h4>
-                <div className="row">
-                  <div className="col-md-12">
-                    <div className="accordion-style1 style2">
-                      <FloorPlans />
-                    </div>
-                  </div>
-                </div>
-              </div>
-              {/* End .ps-widget */}
-
-              <div className="ps-widget bgc-white bdrs12 default-box-shadow2 p30 mb30 ">
-                <h4 className="title fz17 mb30">Video</h4>
-                <div className="row">
-                  <PropertyVideo />
-                </div>
-              </div>
-              {/* End .ps-widget */}
-
-              <div className="ps-widget bgc-white bdrs12 default-box-shadow2 p30 mb30 overflow-hidden position-relative">
-                <h4 className="title fz17 mb30">360° Virtual Tour</h4>
-                <div className="row">
-                  <VirtualTour360 />
-                </div>
-              </div>
-              {/* End .ps-widget */}
-
-              <div className="ps-widget bgc-white bdrs12 default-box-shadow2 p30 mb30 overflow-hidden position-relative">
-                <h4 className="title fz17 mb30">What&apos;s Nearby?</h4>
-                <div className="row">
-                  <PropertyNearby />
-                </div>
-              </div>
-              {/* End .ps-widget */}
-
-              <div className="ps-widget bgc-white bdrs12 default-box-shadow2 p30 mb30 overflow-hidden position-relative">
-                <h4 className="title fz17 mb30">Walkscore</h4>
-                <div className="row">
-                  <div className="col-md-12">
-                    <h4 className="fw400 mb20">
-                      10425 Tabor St Los Angeles CA 90034 USA
-                    </h4>
-                    <WalkScore />
-                  </div>
-                </div>
-              </div>
-              {/* End .ps-widget */}
-
-              <div className="ps-widget bgc-white bdrs12 default-box-shadow2 p30 mb30 overflow-hidden position-relative">
-                <h4 className="title fz17 mb30">Mortgage Calculator</h4>
-                <div className="row">
-                  <MortgageCalculator />
-                </div>
-              </div>
-              {/* End .ps-widget */}
-
-              <div className="ps-widget bgc-white bdrs12 default-box-shadow2 p30 mb30 overflow-hidden position-relative">
-                <div className="row">
-                  <PropertyViews />
-                </div>
-              </div>
-              {/* End .ps-widget */}
-
-              <div className="ps-widget bgc-white bdrs12 default-box-shadow2 p30 mb30 overflow-hidden position-relative">
-                <h4 className="title fz17 mb30">Home Value</h4>
-                <div className="row">
-                  <HomeValueChart />
-                </div>
-              </div>
               {/* End .ps-widget */}
 
               <div className="ps-widget bgc-white bdrs12 default-box-shadow2 p30 mb30 overflow-hidden position-relative">
@@ -178,20 +93,8 @@ const SingleV4 = async props => {
               </div>
               {/* End .ps-widget */}
 
-              <div className="ps-widget bgc-white bdrs12 default-box-shadow2 p30 mb30 overflow-hidden position-relative">
-                <div className="row">
-                  {/* <AllComments /> */}
-                  <AllReviews />
-                </div>
-              </div>
               {/* End .ps-widget */}
 
-              <div className="ps-widget bgc-white bdrs12 default-box-shadow2 p30 mb30 overflow-hidden position-relative">
-                <h4 className="title fz17 mb30">Leave A Review</h4>
-                <div className="row">
-                  <ReviewBoxForm />
-                </div>
-              </div>
               {/* End .ps-widget */}
             </div>
             {/* End .col-8 */}

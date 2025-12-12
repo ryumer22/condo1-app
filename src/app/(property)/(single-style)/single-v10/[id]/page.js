@@ -30,7 +30,7 @@ export const metadata = {
   title: "Property Single V10 || Homez - Real Estate NextJS Template",
 };
 
-const SingleV10 = async props => {
+const SingleV10 = async (props) => {
   const params = await props.params;
   return (
     <>

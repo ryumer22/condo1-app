@@ -15,7 +15,7 @@ const WhyChoose = () => {
             src="/images/about/why-chose-1.png"
             alt="why chosse"
           />
-          <Link href="/single-v1/5">
+          <Link href="/single-v4/5">
             <div className="iconbox-style5 d-flex align-items-center">
               <span className="icon flaticon-home flex-shrink-0" />
               <div className="iconbox-content flex-shrink-1 ms-2">
