@@ -16,7 +16,7 @@ module.exports = [
     lat: 40.7279707552121,
     long: -74.07152705896405,
     features: [
-      "Appliances Included",
+      "test",
       "Dishwasher",
       "Dryer",
       "Oven",
