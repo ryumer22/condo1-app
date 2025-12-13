@@ -7,7 +7,7 @@ const PropertyByCities = () => {
     <>
       {cities.slice(6, 14).map((city, index) => (
         <div className="col-sm-6 col-lg-3" key={index}>
-          <Link href="/grid-full-2-col">
+          <Link href="/property-listings">
             <div className="position-relative mb50 mb20-md d-flex align-items-center">
               <div className="city-img flex-shrink-0">
                 <Image width={80} height={81} src={city.image} alt="listing" />

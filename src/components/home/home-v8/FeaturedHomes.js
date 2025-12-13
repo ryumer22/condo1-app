@@ -76,7 +76,7 @@ const FeaturedHomes = () => {
         {featuredHomesData.map((home) => (
           <SwiperSlide key={home.id}>
             <div className="item">
-              <Link href="/grid-full-4-col">
+              <Link href="/property-listings">
                 <div className="apartment-style2 text-center mb30">
                   <div className="apartment-img">
                     <Image

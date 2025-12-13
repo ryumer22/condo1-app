@@ -62,7 +62,7 @@ const FeaturedListings = () => {
                 </div>
                 <div className="list-content">
                   <h6 className="list-title">
-                    <Link href="/grid-full-3-col">{listing.title}</Link>
+                    <Link href="/property-listings">{listing.title}</Link>
                   </h6>
                   <p className="list-text">{listing.location}</p>
                   <div className="list-meta d-flex align-items-center">

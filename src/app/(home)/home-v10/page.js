@@ -88,7 +88,7 @@ const Home_V10 = () => {
             </div>
             <div className="col-lg-3">
               <div className="text-start text-lg-end mb-3">
-                <Link className="ud-btn2" href="/grid-full-3-col">
+                <Link className="ud-btn2" href="/property-listings">
                   See All Properties
                   <i className="fal fa-arrow-right-long" />
                 </Link>

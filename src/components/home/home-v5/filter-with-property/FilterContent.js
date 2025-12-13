@@ -136,7 +136,7 @@ const FilterContent = () => {
                     <button
                       className="advance-search-icon ud-btn btn-thm ms-4"
                       type="button"
-                      onClick={() => router.push("/grid-full-3-col")}
+                      onClick={() => router.push("/property-listings")}
                     >
                       <span className="flaticon-search" />
                     </button>

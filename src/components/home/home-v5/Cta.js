@@ -21,7 +21,7 @@ const Cta = () => {
                   Submit Property
                   <i className="fal fa-arrow-right-long" />
                 </Link>
-                <Link href="/grid-default" className="ud-btn btn-white">
+                <Link href="/property-listings" className="ud-btn btn-white">
                   Browse Properties
                   <i className="fal fa-arrow-right-long" />
                 </Link>

@@ -59,7 +59,7 @@ const Home_V6 = () => {
                   <br className="d-none d-xl-block" /> limited time offer
                   discounts.
                 </p>
-                <Link href="/grid-full-1-col-v1" className="ud-btn btn-thm">
+                <Link href="/property-listings" className="ud-btn btn-thm">
                   How İt Works
                   <i className="fal fa-arrow-right-long" />
                 </Link>

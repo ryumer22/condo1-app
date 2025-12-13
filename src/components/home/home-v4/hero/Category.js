@@ -13,7 +13,7 @@ const Category = () => {
       {categories.map((category, index) => (
         <Link
           key={index}
-          href="/grid-full-4-col"
+          href="/property-listings"
           className="d-flex align-items-center dark-color ff-heading me-4"
         >
           <i className={`icon mr10 ${category.icon}`} /> {category.text}

@@ -13,7 +13,6 @@ import React from "react";
 import Footer from "@/components/common/default-footer";
 import Cta from "@/components/home/home-v2/Cta";
 
-
 import Link from "next/link";
 
 export const metadata = {
@@ -73,7 +72,7 @@ const Home_V2 = () => {
             </div>
             <div className="col-lg-3">
               <div className="text-start text-lg-end mb-3">
-                <Link className="ud-btn2" href="/grid-full-3-col">
+                <Link className="ud-btn2" href="/property-listings">
                   See All Properties
                   <i className="fal fa-arrow-right-long" />
                 </Link>

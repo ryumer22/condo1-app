@@ -137,7 +137,7 @@ const FilterContent = () => {
                     <button
                       className="ud-btn btn-dark ms-2"
                       type="button"
-                      onClick={() => router.push("/grid-full-3-col")}
+                      onClick={() => router.push("/property-listings")}
                     >
                       <span className="flaticon-search pe-2" />
                     </button>
