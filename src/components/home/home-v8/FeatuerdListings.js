@@ -72,7 +72,7 @@ const FeaturedListings = () => {
                     {listing.price} / <span>mo</span>
                   </div>
                   <h6 className="list-title my-1">
-                    <Link href={`/single-v3/${listing.id}`}>
+                    <Link href={`/single-v4/${listing.id}`}>
                       {listing.title}
                     </Link>
                   </h6>

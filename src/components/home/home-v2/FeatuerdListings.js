@@ -61,7 +61,7 @@ const FeaturedListings = () => {
                 </div>
                 <div className="list-content">
                   <h6 className="list-title">
-                    <Link href={`/single-v2/${listing.id}`}>
+                    <Link href={`/single-v4/${listing.id}`}>
                       {listing.title}
                     </Link>
                   </h6>

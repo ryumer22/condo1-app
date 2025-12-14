@@ -76,7 +76,7 @@ const ExploreCities = () => {
         {cities.map((city) => (
           <SwiperSlide key={city.id}>
             <div className="item">
-              <Link href="/header-map-style">
+              <Link href="/property-listings">
                 <div className="feature-style2 mb30">
                   <div className="feature-img">
                     <Image

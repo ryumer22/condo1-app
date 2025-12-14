@@ -1,8 +1,7 @@
-
 import Image from "next/image";
 import Link from "next/link";
 
-const FeaturedListings = ({data}) => {
+const FeaturedListings = ({ data }) => {
   return (
     <>
       {data.slice(0, 6).map((listing) => (
@@ -39,7 +38,7 @@ const FeaturedListings = ({data}) => {
             </div>
             <div className="list-content">
               <h6 className="list-title">
-                <Link href={`/single-v5/${listing.id}`}>{listing.title}</Link>
+                <Link href={`/single-v4/${listing.id}`}>{listing.title}</Link>
               </h6>
               <p className="list-text">{listing.location}</p>
 
